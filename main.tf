@@ -15,10 +15,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "kyndryl-gh-actions"
+    organization = "tuputamadre"
 
     workspaces {
-      name = "gh-actions"
+      name = "tuputamadre"
     }
   }
 }
